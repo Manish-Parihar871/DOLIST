@@ -21,6 +21,7 @@ h1{
   }
   .control{
       margin: 4px 2px; 
+      overflow-y: scroll;
   }
   #insert-text{
      overflow-x: scroll;
