@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+h1{
+    text-align: center;
+    padding: 2px 4px;
+    background-color: orange;
+}
+.outer {
+  width:100%;
+  margin-top:50px;
+}
+.inner {
+    width: 25%;
+    height: 600px;
+    display: table;
+    margin: 0 auto;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+  }
+  .control{
+      margin: 4px 2px; 
+  }
+  #insert-text{
+     overflow-x: scroll;
+     margin: 0px 4px;
+     border-color: aqua;
+  }
+  #insert-date{
+      cursor: pointer;
+     margin: 0px 4px;
+     border-color: aqua;
+  }
+  #add{
+      border-radius: 25px;
+      width: 4rem;
+     padding: 4px 10px;
+     cursor: pointer;
+     background-color: black;
+     color: white;
+  }
